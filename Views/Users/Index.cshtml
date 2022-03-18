@@ -1,0 +1,13 @@
+@model interviewtemp.ViewModels.UserRequestViewModel
+
+@{
+    ViewBag.Title = "Users List";
+    Layout = "_Layout";
+}
+
+<h2>User Lists</h2>
+<form method="post">
+    <label>Enter name:</label>
+    <input asp-for="FirstName" type="text"/>
+    <input type="submit">
+</form>
